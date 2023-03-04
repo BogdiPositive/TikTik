@@ -19,6 +19,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "tiktik-sanity-backend/schemas/comment.js", "tiktik-sanity-backend/schemas/index.js", "tiktik-sanity-backend/schemas/post.js", "tiktik-sanity-backend/schemas/post.js", "tiktik-sanity-backend/schemas/postedBy.js", "tiktik-sanity-backend/schemas/user.js"],
   "exclude": ["node_modules"]
 }
