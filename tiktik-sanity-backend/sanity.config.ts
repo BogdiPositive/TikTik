@@ -4,7 +4,7 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 
 export default defineConfig({
-  name: 'default',
+  name: 'tik-tik',
   title: 'tiktik sanity-backend',
 
   projectId: 'kbgxgxni',

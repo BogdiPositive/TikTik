@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
   if (isSSR) return null;
 
   return (
-    <GoogleOAuthProvider clientId={`${process.env.NEXT_PUBLIC_GOOGLE_API_TOKEN}`}>
+    <GoogleOAuthProvider clientId="90549340046-gsc5pn4oaj59hf7alpgnav3q8cu3u9bl.apps.googleusercontent.com">
       <div className="xl:w-[1200px] m-auto overflow-hidden h-[100vh]">
         <Navbar />{" "}
         <div className="flex gap-6 md:gap-20">
