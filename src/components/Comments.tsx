@@ -5,7 +5,6 @@ import { GoVerified } from "react-icons/go";
 
 import useAuthStore from "@/store/authStore";
 import NoResults from "./NoResults";
-import comment from "tiktik-sanity-backend/schemas/comment";
 import { IUser } from "types";
 
 interface IProps {
